@@ -2,6 +2,8 @@
 
 This project is use three LDR sensors to detect and follow a light source. When an obstacle is detected, the robot uses an HC-SR04 ultrasonic sensor mounted on a servo motor to check the left and right sides, chooses the cleaner direction, move around the obstacle, and then continues following the light.
 
+A push button is used for start-stop control, and a LED to show when the robot is on.
+
 Note: A separate 5V regulator (such as a buck converter) could be used for the servo, but the L298N 5V output is sufficient for this single servo project and keeps the circuit simple.
 
 
