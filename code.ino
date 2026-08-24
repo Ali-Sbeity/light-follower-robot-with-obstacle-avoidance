@@ -18,6 +18,8 @@ const int enB = 6;
 const int buttonPin = 2;
 const int statusLed = 13;
 
+const int buzzer = 12;
+
 const int ldrLeft = A0;
 const int ldrCenter = A1;
 const int ldrRight = A2;
@@ -49,6 +51,7 @@ void setup()
   pinMode(echoPin, INPUT);
   pinMode(buttonPin, INPUT_PULLUP);
   pinMode(statusLed, OUTPUT);
+  pinMode(buzzer, OUTPUT);
   pinMode(in1, OUTPUT);
   pinMode(in2, OUTPUT);
   pinMode(in3, OUTPUT);
@@ -158,6 +161,9 @@ void runRobot()
 void avoidObstacle()
 {
   stopRobot();
+  tone(buzzer,1500); // || tone(buzzer, 1500, 1000);
+  delay(1000);
+  noTone(buzzer);
   leftDistanceValue = lookLeft();
   rightDistanceValue = lookRight();
   radarServo.write(90);
