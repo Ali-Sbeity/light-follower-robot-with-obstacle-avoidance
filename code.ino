@@ -161,7 +161,7 @@ void runRobot()
 void avoidObstacle()
 {
   stopRobot();
-  tone(buzzer,1500); // || tone(buzzer, 1500, 1000);
+  tone(buzzer,1500); //  tone(buzzer, 1500, 1000);
   delay(1000);
   noTone(buzzer);
   leftDistanceValue = lookLeft();
@@ -178,7 +178,7 @@ void chooseDirection()
   {
     Serial.println("blocked");
     stopRobot();
-    delay(500);
+    delay(300);
     return;
   }
 
@@ -194,7 +194,7 @@ void chooseDirection()
     delay(400);
     stopRobot();
     moveForward();
-    delay(800);
+    delay(1000);
     stopRobot();
 }
 
