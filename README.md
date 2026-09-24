@@ -10,7 +10,7 @@ Note: A separate 5V regulator (such as a buck converter) could be used for the s
 ## Components List
 
 - **1×** Arduino Uno board
-- **2×** L298N motor driver module
+- **1×** L298N motor driver module
 - **2×** 12v DC gear motor with wheels
 - **1×** Servo motor SG90
 - **1×** Ultrasonic sensor HC-SR04
