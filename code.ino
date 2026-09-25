@@ -2,22 +2,21 @@
 
 Servo radarServo;
 
-const int trigPin = 5;
-const int echoPin = 4;
-
-const int servoPin = 3;
+const int enA =5;
+const int enB = 6;
 
 const int in1 = 10;
 const int in2 = 9;
 const int in3 = 8;
 const int in4 = 7;
 
-const int enA =11;
-const int enB = 6;
+const int servoPin = 11;
+
+const int trigPin = 3;
+const int echoPin = 4;
 
 const int buttonPin = 2;
 const int statusLed = 13;
-
 const int buzzer = 12;
 
 const int ldrLeft = A0;
