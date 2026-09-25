@@ -24,7 +24,6 @@ Note: A separate 5V regulator (such as a buck converter) could be used for the s
 - **1×** 18650 battery holder
 - **1×** 2WD robot chasis kit
 - **30×** jumber wires
-- 
 
 
 ## Source code:
