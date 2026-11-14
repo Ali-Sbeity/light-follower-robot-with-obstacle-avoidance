@@ -30,6 +30,6 @@ Note: A separate 5V regulator (such as a buck converter) could be used for the s
 [code.ino](code.ino)
 
 
-## Circuit schematic: 
+## Wiring Diagram: 
 
-[schematic.png](schematic.png)
+[wiring-diagram.png](wiring-diagram.png)
